@@ -1,0 +1,18 @@
+CXX=g++
+CXXFLAGS=-O1
+#$(warning SIMDFLAG=$(SIMDFLAG))
+
+all:test_stdlib test_mavx test_naive
+
+test_stdlib:test.cpp
+	$(CXX) -o test_stdlib test.cpp $(CXXFLAGS) -D STD_MEMCPY
+
+test_mavx:test.cpp
+	$(CXX) -o test_mavx test.cpp $(CXXFLAGS) -mavx -D AVX_MEMCPY
+
+test_naive:test.cpp
+	$(CXX) -o test_naive test.cpp $(CXXFLAGS) -D NAIVE_MEMCPY
+
+clean:
+	-rm -f ./test_*
+
