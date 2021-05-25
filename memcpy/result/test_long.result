@@ -1,0 +1,57 @@
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000266
+running bench, size=2097152, 16 times
+  Time cost: 0.000368
+running bench, size=4194304, 16 times
+  Time cost: 0.000465
+running bench, size=8388608, 16 times
+  Time cost: 0.000868
+running bench, size=16777216, 16 times
+  Time cost: 0.002216
+running bench, size=33554432, 16 times
+  Time cost: 0.005374
+running bench, size=67108864, 16 times
+  Time cost: 0.011398
+running bench, size=134217728, 16 times
+  Time cost: 0.023433
+running bench, size=268435456, 16 times
+  Time cost: 0.048445
+running bench, size=536870912, 16 times
+  Time cost: 0.096855
+running bench, size=1073741824, 16 times
+  Time cost: 0.194039
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000285
+running bench, size=2097152, 16 times
+  Time cost: 0.000399
+running bench, size=4194304, 16 times
+  Time cost: 0.000493
+running bench, size=8388608, 16 times
+  Time cost: 0.000879
+running bench, size=16777216, 16 times
+  Time cost: 0.002225
+running bench, size=33554432, 16 times
+  Time cost: 0.005185
+running bench, size=67108864, 16 times
+  Time cost: 0.011096
+running bench, size=134217728, 16 times
+  Time cost: 0.023175
+running bench, size=268435456, 16 times
+  Time cost: 0.047069
+running bench, size=536870912, 16 times
+  Time cost: 0.116258
+running bench, size=1073741824, 16 times
+  Time cost: 0.195571
+
+ Performance counter stats for './test_long':
+
+     1,016,268,276      cache-misses                                                
+
+       8.378505956 seconds time elapsed
+
+       7.348383000 seconds user
+       1.008129000 seconds sys
+
+

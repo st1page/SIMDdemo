@@ -1,0 +1,57 @@
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000151
+running bench, size=2097152, 16 times
+  Time cost: 0.000292
+running bench, size=4194304, 16 times
+  Time cost: 0.000411
+running bench, size=8388608, 16 times
+  Time cost: 0.000759
+running bench, size=16777216, 16 times
+  Time cost: 0.002650
+running bench, size=33554432, 16 times
+  Time cost: 0.006732
+running bench, size=67108864, 16 times
+  Time cost: 0.013868
+running bench, size=134217728, 16 times
+  Time cost: 0.028059
+running bench, size=268435456, 16 times
+  Time cost: 0.057884
+running bench, size=536870912, 16 times
+  Time cost: 0.111685
+running bench, size=1073741824, 16 times
+  Time cost: 0.226364
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000187
+running bench, size=2097152, 16 times
+  Time cost: 0.000343
+running bench, size=4194304, 16 times
+  Time cost: 0.000464
+running bench, size=8388608, 16 times
+  Time cost: 0.000830
+running bench, size=16777216, 16 times
+  Time cost: 0.002747
+running bench, size=33554432, 16 times
+  Time cost: 0.006778
+running bench, size=67108864, 16 times
+  Time cost: 0.013889
+running bench, size=134217728, 16 times
+  Time cost: 0.028252
+running bench, size=268435456, 16 times
+  Time cost: 0.049321
+running bench, size=536870912, 16 times
+  Time cost: 0.111473
+running bench, size=1073741824, 16 times
+  Time cost: 0.226336
+
+ Performance counter stats for './test_stdlib':
+
+       527,624,034      cache-misses                                                
+
+       9.000257372 seconds time elapsed
+
+       8.025984000 seconds user
+       0.954772000 seconds sys
+
+

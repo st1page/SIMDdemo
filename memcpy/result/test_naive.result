@@ -1,0 +1,57 @@
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000813
+running bench, size=2097152, 16 times
+  Time cost: 0.001018
+running bench, size=4194304, 16 times
+  Time cost: 0.001893
+running bench, size=8388608, 16 times
+  Time cost: 0.003762
+running bench, size=16777216, 16 times
+  Time cost: 0.007585
+running bench, size=33554432, 16 times
+  Time cost: 0.015199
+running bench, size=67108864, 16 times
+  Time cost: 0.030441
+running bench, size=134217728, 16 times
+  Time cost: 0.060992
+running bench, size=268435456, 16 times
+  Time cost: 0.121793
+running bench, size=536870912, 16 times
+  Time cost: 0.243573
+running bench, size=1073741824, 16 times
+  Time cost: 0.486880
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000947
+running bench, size=2097152, 16 times
+  Time cost: 0.001041
+running bench, size=4194304, 16 times
+  Time cost: 0.001898
+running bench, size=8388608, 16 times
+  Time cost: 0.003776
+running bench, size=16777216, 16 times
+  Time cost: 0.007623
+running bench, size=33554432, 16 times
+  Time cost: 0.015218
+running bench, size=67108864, 16 times
+  Time cost: 0.031467
+running bench, size=134217728, 16 times
+  Time cost: 0.064795
+running bench, size=268435456, 16 times
+  Time cost: 0.121596
+running bench, size=536870912, 16 times
+  Time cost: 0.243127
+running bench, size=1073741824, 16 times
+  Time cost: 0.486593
+
+ Performance counter stats for './test_naive':
+
+     1,015,781,624      cache-misses                                                
+
+      16.895094383 seconds time elapsed
+
+      16.037480000 seconds user
+       0.815009000 seconds sys
+
+

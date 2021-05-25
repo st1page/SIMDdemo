@@ -1,0 +1,57 @@
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000216
+running bench, size=2097152, 16 times
+  Time cost: 0.000335
+running bench, size=4194304, 16 times
+  Time cost: 0.000445
+running bench, size=8388608, 16 times
+  Time cost: 0.000790
+running bench, size=16777216, 16 times
+  Time cost: 0.002012
+running bench, size=33554432, 16 times
+  Time cost: 0.004922
+running bench, size=67108864, 16 times
+  Time cost: 0.010912
+running bench, size=134217728, 16 times
+  Time cost: 0.021969
+running bench, size=268435456, 16 times
+  Time cost: 0.045024
+running bench, size=536870912, 16 times
+  Time cost: 0.090282
+running bench, size=1073741824, 16 times
+  Time cost: 0.182033
+[PASS] align Addr test pass
+running bench, size=1048576, 16 times
+  Time cost: 0.000228
+running bench, size=2097152, 16 times
+  Time cost: 0.000297
+running bench, size=4194304, 16 times
+  Time cost: 0.000439
+running bench, size=8388608, 16 times
+  Time cost: 0.000749
+running bench, size=16777216, 16 times
+  Time cost: 0.001998
+running bench, size=33554432, 16 times
+  Time cost: 0.004909
+running bench, size=67108864, 16 times
+  Time cost: 0.010609
+running bench, size=134217728, 16 times
+  Time cost: 0.027067
+running bench, size=268435456, 16 times
+  Time cost: 0.045301
+running bench, size=536870912, 16 times
+  Time cost: 0.091226
+running bench, size=1073741824, 16 times
+  Time cost: 0.182165
+
+ Performance counter stats for './test_mavx':
+
+     1,008,370,202      cache-misses                                                
+
+       7.091008135 seconds time elapsed
+
+       6.298092000 seconds user
+       0.775073000 seconds sys
+
+
