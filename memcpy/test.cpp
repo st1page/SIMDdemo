@@ -17,9 +17,8 @@ double get_sec(){
 
 
 void test_alignAddr(int size){
-    // printf("%d==========================================================================\n",size);
+
 	char *src = (char*)aligned_alloc(k_align, size+1);
-    
     for (int i = 0; i < size; i++) src[i]=i*7+3;
 	char *dst = (char*)aligned_alloc(k_align, size+1);
     char *stddst = (char*)aligned_alloc(k_align, size+1);
@@ -67,6 +66,8 @@ int main(){
 
     return 0;
 }
+
+
 
 //TODO test correct and benchmark for unalign
 /* 
