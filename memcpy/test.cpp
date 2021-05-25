@@ -42,12 +42,11 @@ void bench(int size){
 	char *dst = (char*)aligned_alloc(k_align, size);
 
     printf("running bench, size=%d, %d times\n", size ,bench_cnt);
-    double tot_time = 0;
+    double t0 = get_sec();
     for(int i = 0; i < bench_cnt; i++) {
-        double t0 = get_sec();
         Memcpy(dst, src, size);
-        tot_time += get_sec() - t0;
     }
+    double tot_time = get_sec() - t0;
     printf("  Time cost: %lf\n", tot_time/bench_cnt);
     
     free(src);
